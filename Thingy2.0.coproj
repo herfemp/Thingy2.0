@@ -94,16 +94,16 @@
     <Component id="495" name="CAN" path="" type="2"/>
   </Components>
   <Files>
-    <File name="Syssup/stm_lib/src/stm32f10x_crc.c" path="Syssup/stm_lib/src/stm32f10x_crc.c" type="1"/>
     <File name="GUI/GUI.c" path="GUI/GUI.c" type="1"/>
+    <File name="Syssup/stm_lib/src/stm32f10x_crc.c" path="Syssup/stm_lib/src/stm32f10x_crc.c" type="1"/>
     <File name="Syssup/stm_lib/inc/stm32f10x_rcc.h" path="Syssup/stm_lib/inc/stm32f10x_rcc.h" type="1"/>
     <File name="Syssup/stm_lib/inc/stm32f10x_bkp.h" path="Syssup/stm_lib/inc/stm32f10x_bkp.h" type="1"/>
     <File name="Syssup/stm_lib/src/stm32f10x_dma.c" path="Syssup/stm_lib/src/stm32f10x_dma.c" type="1"/>
     <File name="Syssup/stm_lib/inc/stm32f10x_crc.h" path="Syssup/stm_lib/inc/stm32f10x_crc.h" type="1"/>
     <File name="HAL/Disk/ff.c" path="HAL/Disk/ff.c" type="1"/>
     <File name="HAL/IRQ.h" path="HAL/IRQ.h" type="1"/>
-    <File name="Syssup/stm_lib/inc/stm32f10x_tim.h" path="Syssup/stm_lib/inc/stm32f10x_tim.h" type="1"/>
     <File name="Syssup/stm_lib/src/stm32f10x_spi.c" path="Syssup/stm_lib/src/stm32f10x_spi.c" type="1"/>
+    <File name="Syssup/stm_lib/inc/stm32f10x_tim.h" path="Syssup/stm_lib/inc/stm32f10x_tim.h" type="1"/>
     <File name="Syssup/stm_lib/src/stm32f10x_wwdg.c" path="Syssup/stm_lib/src/stm32f10x_wwdg.c" type="1"/>
     <File name="Syssup/cmsis/core_cm3.h" path="Syssup/cmsis/core_cm3.h" type="1"/>
     <File name="common.h" path="common.h" type="1"/>
@@ -121,8 +121,8 @@
     <File name="Syssup/stm_lib/inc/stm32f10x_adc.h" path="Syssup/stm_lib/inc/stm32f10x_adc.h" type="1"/>
     <File name="BDM/Drivers/TxDriver.bin.h" path="BDM/Drivers/TxDriver.bin.h" type="1"/>
     <File name="HAL" path="" type="2"/>
-    <File name="Syssup/cmsis_boot/system_stm32f10x.c" path="Syssup/cmsis_boot/system_stm32f10x.c" type="1"/>
     <File name="CAN/Core.c" path="CAN/Core.c" type="1"/>
+    <File name="Syssup/cmsis_boot/system_stm32f10x.c" path="Syssup/cmsis_boot/system_stm32f10x.c" type="1"/>
     <File name="HAL/Disk/diskio.h" path="HAL/Disk/diskio.h" type="1"/>
     <File name="Syssup/stdio" path="" type="2"/>
     <File name="Syssup/stm_lib/inc/stm32f10x_flash.h" path="Syssup/stm_lib/inc/stm32f10x_flash.h" type="1"/>
@@ -158,8 +158,8 @@
     <File name="init.c" path="init.c" type="1"/>
     <File name="Syssup/stm_lib/src/stm32f10x_rtc.c" path="Syssup/stm_lib/src/stm32f10x_rtc.c" type="1"/>
     <File name="Syssup/cmsis_boot" path="" type="2"/>
-    <File name="Syssup/stm_lib/inc/stm32f10x_gpio.h" path="Syssup/stm_lib/inc/stm32f10x_gpio.h" type="1"/>
     <File name="HAL/irq_hal.h" path="HAL/irq_hal.h" type="1"/>
+    <File name="Syssup/stm_lib/inc/stm32f10x_gpio.h" path="Syssup/stm_lib/inc/stm32f10x_gpio.h" type="1"/>
     <File name="HAL/tim_hal.h" path="HAL/tim_hal.h" type="1"/>
     <File name="Syssup/stm_lib/src/stm32f10x_exti.c" path="Syssup/stm_lib/src/stm32f10x_exti.c" type="1"/>
     <File name="BDM/ReadWrite.c" path="BDM/ReadWrite.c" type="1"/>
@@ -176,12 +176,12 @@
     <File name="loader.bin.h" path="loader.bin.h" type="1"/>
     <File name="BDM/Prep.c" path="BDM/Prep.c" type="1"/>
     <File name="CAN" path="" type="2"/>
-    <File name="Syssup/stdio/printf.c" path="Syssup/stdio/printf.c" type="1"/>
     <File name="SupportFuncs.c" path="SupportFuncs.c" type="1"/>
+    <File name="Syssup/stdio/printf.c" path="Syssup/stdio/printf.c" type="1"/>
     <File name="CAN/legion.bin.h" path="CAN/legion.bin.h" type="1"/>
+    <File name="CAN/Legion.c" path="CAN/Legion.c" type="1"/>
     <File name="Syssup/stm_lib/inc/stm32f10x_i2c.h" path="Syssup/stm_lib/inc/stm32f10x_i2c.h" type="1"/>
     <File name="Syssup/cmsis_boot/stm32f10x.h" path="Syssup/cmsis_boot/stm32f10x.h" type="1"/>
-    <File name="CAN/Legion.c" path="CAN/Legion.c" type="1"/>
     <File name="Syssup/stm_lib/src/stm32f10x_can.c" path="Syssup/stm_lib/src/stm32f10x_can.c" type="1"/>
     <File name="Syssup/stm_lib/src/misc.c" path="Syssup/stm_lib/src/misc.c" type="1"/>
     <File name="Syssup/stm_lib/inc/stm32f10x_pwr.h" path="Syssup/stm_lib/inc/stm32f10x_pwr.h" type="1"/>
@@ -190,9 +190,9 @@
     <File name="Syssup/stm_lib/inc/stm32f10x_dbgmcu.h" path="Syssup/stm_lib/inc/stm32f10x_dbgmcu.h" type="1"/>
     <File name="HAL/Disk/ff.h" path="HAL/Disk/ff.h" type="1"/>
     <File name="Syssup/syscalls" path="" type="2"/>
+    <File name="Syssup/cmsis/core_cmInstr.h" path="Syssup/cmsis/core_cmInstr.h" type="1"/>
     <File name="CAN/KeyGen.c" path="CAN/KeyGen.c" type="1"/>
     <File name="Syssup/stm_lib/src/stm32f10x_flash.c" path="Syssup/stm_lib/src/stm32f10x_flash.c" type="1"/>
-    <File name="Syssup/cmsis/core_cmInstr.h" path="Syssup/cmsis/core_cmInstr.h" type="1"/>
     <File name="Syssup/stm_lib/inc/stm32f10x_iwdg.h" path="Syssup/stm_lib/inc/stm32f10x_iwdg.h" type="1"/>
     <File name="Syssup/stm_lib/src/stm32f10x_usart.c" path="Syssup/stm_lib/src/stm32f10x_usart.c" type="1"/>
     <File name="Syssup" path="" type="2"/>

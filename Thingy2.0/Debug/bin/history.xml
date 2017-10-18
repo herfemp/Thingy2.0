@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Thingy2.0.map -O3 --gc-sections -LH:\CooCox\CoIDE\configuration\ProgramData\Thingy2.0 -TH:\CooCox\CoIDE\configuration\ProgramData\Thingy2.0/arm-gcc-link.ld -g">
-      <target file="Thingy2.0.elf" lastModified="15f2c4eb42a">
+      <target file="Thingy2.0.elf" lastModified="15f31be874c">
          <source file="..\obj\stm32f10x_rtc.o" lastModified="15d4093ae3d"/>
          <source file="..\obj\stm32f10x_tim.o" lastModified="15d4093b077"/>
          <source file="..\obj\GUI.o" lastModified="15d4093b10a"/>
@@ -17,7 +17,7 @@
          <source file="..\obj\Core.o" lastModified="15ed817f7c0"/>
          <source file="..\obj\stm32f10x_gpio.o" lastModified="15d4093b822"/>
          <source file="..\obj\ST7735.o" lastModified="15d409492b0"/>
-         <source file="..\obj\main.o" lastModified="15eda033db7"/>
+         <source file="..\obj\main.o" lastModified="15f31be8491"/>
          <source file="..\obj\GPIO.o" lastModified="15d4093be4e"/>
          <source file="..\obj\stm32f10x_crc.o" lastModified="15d4093becd"/>
          <source file="..\obj\init.o" lastModified="15d4093bf87"/>

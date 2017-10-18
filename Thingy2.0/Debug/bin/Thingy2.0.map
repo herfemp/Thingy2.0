@@ -31,7 +31,6 @@ MiscTime            0x4               ..\obj\GUI.o
 bdmresp             0x2               ..\obj\Prep.o
 Message             0xc               ..\obj\ST7735.o
 Messageindex        0x4               ..\obj\ST7735.o
-newboard            0x1400            ..\obj\main.o
 bdmresp32           0x2               ..\obj\Prep.o
 Attn                0x1               ..\obj\Prep.o
 CAN_FilterInitStructure
@@ -49,7 +48,6 @@ Yrange              0x4               ..\obj\ST7735.o
 TxMessage           0x14              ..\obj\Core.o
 NVIC_InitStructure  0x4               ..\obj\irq_hal.o
 bdmresp16           0x2               ..\obj\Prep.o
-DMA_InitStructure   0x2c              ..\obj\main.o
 RxMessage           0x14              ..\obj\GUI.o
 X                   0x4               ..\obj\ST7735.o
 
@@ -533,16 +531,11 @@ Discarded input sections
                 0x00000000        0xc ..\obj\ST7735.o
  COMMON         0x00000000       0x20 ..\obj\ST7735.o
  .text          0x00000000        0x0 ..\obj\main.o
- .data          0x00000000     0x1408 ..\obj\main.o
+ .data          0x00000000        0x6 ..\obj\main.o
  .bss           0x00000000        0x0 ..\obj\main.o
  .text.UploadLegionMCP
-                0x00000000      0x168 ..\obj\main.o
- .text.xadd     0x00000000       0x2c ..\obj\main.o
- .text.yadd     0x00000000       0x2c ..\obj\main.o
- .text.play     0x00000000      0x298 ..\obj\main.o
- .text.Conway   0x00000000       0xa0 ..\obj\main.o
+                0x00000000      0x198 ..\obj\main.o
  .rodata        0x00000000      0x808 ..\obj\main.o
- COMMON         0x00000000     0x142c ..\obj\main.o
  .text          0x00000000        0x0 ..\obj\GPIO.o
  .bss           0x00000000        0x0 ..\obj\GPIO.o
  .text          0x00000000        0x0 ..\obj\stm32f10x_crc.o
@@ -1948,7 +1941,7 @@ LOAD h:/4.7_2013q3/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/
 END GROUP
 OUTPUT(Thingy2.0.elf elf32-littlearm)
 
-.debug_info     0x00000000    0x1f451
+.debug_info     0x00000000    0x1f167
  .debug_info    0x00000000     0x256e ..\obj\stm32f10x_tim.o
  .debug_info    0x0000256e      0x57d ..\obj\GUI.o
  .debug_info    0x00002aeb      0xceb ..\obj\tim_hal.o
@@ -1960,24 +1953,24 @@ OUTPUT(Thingy2.0.elf elf32-littlearm)
  .debug_info    0x00005765     0x1221 ..\obj\Core.o
  .debug_info    0x00006986      0x887 ..\obj\stm32f10x_gpio.o
  .debug_info    0x0000720d     0x2d02 ..\obj\ST7735.o
- .debug_info    0x00009f0f      0xecf ..\obj\main.o
- .debug_info    0x0000adde      0x601 ..\obj\GPIO.o
- .debug_info    0x0000b3df      0xf95 ..\obj\init.o
- .debug_info    0x0000c374     0x1d52 ..\obj\printf.o
- .debug_info    0x0000e0c6      0x92e ..\obj\stm32f10x_rcc.o
- .debug_info    0x0000e9f4      0x346 ..\obj\stm32f10x_exti.o
- .debug_info    0x0000ed3a      0xb3c ..\obj\stm32f10x_usart.o
- .debug_info    0x0000f876      0x76f ..\obj\irq_hal.o
- .debug_info    0x0000ffe5      0xb1c ..\obj\BDM_CORE.o
- .debug_info    0x00010b01     0x178e ..\obj\sdmm.o
- .debug_info    0x0001228f     0x735c ..\obj\ff.o
- .debug_info    0x000195eb      0x470 ..\obj\stm32f10x_dma.o
- .debug_info    0x00019a5b     0x3ca9 ..\obj\ReadWrite.o
- .debug_info    0x0001d704      0x543 ..\obj\misc.o
- .debug_info    0x0001dc47      0x9dd ..\obj\stm32f10x_spi.o
- .debug_info    0x0001e624      0xe2d ..\obj\SupportFuncs.o
+ .debug_info    0x00009f0f      0xbe5 ..\obj\main.o
+ .debug_info    0x0000aaf4      0x601 ..\obj\GPIO.o
+ .debug_info    0x0000b0f5      0xf95 ..\obj\init.o
+ .debug_info    0x0000c08a     0x1d52 ..\obj\printf.o
+ .debug_info    0x0000dddc      0x92e ..\obj\stm32f10x_rcc.o
+ .debug_info    0x0000e70a      0x346 ..\obj\stm32f10x_exti.o
+ .debug_info    0x0000ea50      0xb3c ..\obj\stm32f10x_usart.o
+ .debug_info    0x0000f58c      0x76f ..\obj\irq_hal.o
+ .debug_info    0x0000fcfb      0xb1c ..\obj\BDM_CORE.o
+ .debug_info    0x00010817     0x178e ..\obj\sdmm.o
+ .debug_info    0x00011fa5     0x735c ..\obj\ff.o
+ .debug_info    0x00019301      0x470 ..\obj\stm32f10x_dma.o
+ .debug_info    0x00019771     0x3ca9 ..\obj\ReadWrite.o
+ .debug_info    0x0001d41a      0x543 ..\obj\misc.o
+ .debug_info    0x0001d95d      0x9dd ..\obj\stm32f10x_spi.o
+ .debug_info    0x0001e33a      0xe2d ..\obj\SupportFuncs.o
 
-.debug_abbrev   0x00000000     0x3fb7
+.debug_abbrev   0x00000000     0x3eec
  .debug_abbrev  0x00000000      0x2bc ..\obj\stm32f10x_tim.o
  .debug_abbrev  0x000002bc      0x182 ..\obj\GUI.o
  .debug_abbrev  0x0000043e      0x2f6 ..\obj\tim_hal.o
@@ -1989,24 +1982,24 @@ OUTPUT(Thingy2.0.elf elf32-littlearm)
  .debug_abbrev  0x00000ed9      0x39e ..\obj\Core.o
  .debug_abbrev  0x00001277      0x203 ..\obj\stm32f10x_gpio.o
  .debug_abbrev  0x0000147a      0x3c9 ..\obj\ST7735.o
- .debug_abbrev  0x00001843      0x2e7 ..\obj\main.o
- .debug_abbrev  0x00001b2a      0x1dd ..\obj\GPIO.o
- .debug_abbrev  0x00001d07      0x254 ..\obj\init.o
- .debug_abbrev  0x00001f5b      0x3c8 ..\obj\printf.o
- .debug_abbrev  0x00002323      0x25e ..\obj\stm32f10x_rcc.o
- .debug_abbrev  0x00002581      0x160 ..\obj\stm32f10x_exti.o
- .debug_abbrev  0x000026e1      0x1f8 ..\obj\stm32f10x_usart.o
- .debug_abbrev  0x000028d9      0x1eb ..\obj\irq_hal.o
- .debug_abbrev  0x00002ac4      0x233 ..\obj\BDM_CORE.o
- .debug_abbrev  0x00002cf7      0x39c ..\obj\sdmm.o
- .debug_abbrev  0x00003093      0x315 ..\obj\ff.o
- .debug_abbrev  0x000033a8      0x164 ..\obj\stm32f10x_dma.o
- .debug_abbrev  0x0000350c      0x47d ..\obj\ReadWrite.o
- .debug_abbrev  0x00003989      0x154 ..\obj\misc.o
- .debug_abbrev  0x00003add      0x1fa ..\obj\stm32f10x_spi.o
- .debug_abbrev  0x00003cd7      0x2e0 ..\obj\SupportFuncs.o
+ .debug_abbrev  0x00001843      0x21c ..\obj\main.o
+ .debug_abbrev  0x00001a5f      0x1dd ..\obj\GPIO.o
+ .debug_abbrev  0x00001c3c      0x254 ..\obj\init.o
+ .debug_abbrev  0x00001e90      0x3c8 ..\obj\printf.o
+ .debug_abbrev  0x00002258      0x25e ..\obj\stm32f10x_rcc.o
+ .debug_abbrev  0x000024b6      0x160 ..\obj\stm32f10x_exti.o
+ .debug_abbrev  0x00002616      0x1f8 ..\obj\stm32f10x_usart.o
+ .debug_abbrev  0x0000280e      0x1eb ..\obj\irq_hal.o
+ .debug_abbrev  0x000029f9      0x233 ..\obj\BDM_CORE.o
+ .debug_abbrev  0x00002c2c      0x39c ..\obj\sdmm.o
+ .debug_abbrev  0x00002fc8      0x315 ..\obj\ff.o
+ .debug_abbrev  0x000032dd      0x164 ..\obj\stm32f10x_dma.o
+ .debug_abbrev  0x00003441      0x47d ..\obj\ReadWrite.o
+ .debug_abbrev  0x000038be      0x154 ..\obj\misc.o
+ .debug_abbrev  0x00003a12      0x1fa ..\obj\stm32f10x_spi.o
+ .debug_abbrev  0x00003c0c      0x2e0 ..\obj\SupportFuncs.o
 
-.debug_loc      0x00000000    0x1f4e9
+.debug_loc      0x00000000    0x1f0e9
  .debug_loc     0x00000000     0x23ee ..\obj\stm32f10x_tim.o
  .debug_loc     0x000023ee       0xbe ..\obj\GUI.o
  .debug_loc     0x000024ac      0x2af ..\obj\tim_hal.o
@@ -2017,23 +2010,23 @@ OUTPUT(Thingy2.0.elf elf32-littlearm)
  .debug_loc     0x00003291      0x204 ..\obj\Core.o
  .debug_loc     0x00003495     0x1536 ..\obj\stm32f10x_gpio.o
  .debug_loc     0x000049cb     0x2bea ..\obj\ST7735.o
- .debug_loc     0x000075b5      0x53e ..\obj\main.o
- .debug_loc     0x00007af3      0x1b8 ..\obj\GPIO.o
- .debug_loc     0x00007cab     0x2774 ..\obj\printf.o
- .debug_loc     0x0000a41f      0x7fb ..\obj\stm32f10x_rcc.o
- .debug_loc     0x0000ac1a      0x1f6 ..\obj\stm32f10x_exti.o
- .debug_loc     0x0000ae10      0x82e ..\obj\stm32f10x_usart.o
- .debug_loc     0x0000b63e       0x84 ..\obj\irq_hal.o
- .debug_loc     0x0000b6c2      0x25b ..\obj\BDM_CORE.o
- .debug_loc     0x0000b91d     0x125a ..\obj\sdmm.o
- .debug_loc     0x0000cb77     0xdc4f ..\obj\ff.o
- .debug_loc     0x0001a7c6      0x177 ..\obj\stm32f10x_dma.o
- .debug_loc     0x0001a93d     0x4447 ..\obj\ReadWrite.o
- .debug_loc     0x0001ed84      0x18e ..\obj\misc.o
- .debug_loc     0x0001ef12      0x535 ..\obj\stm32f10x_spi.o
- .debug_loc     0x0001f447       0xa2 ..\obj\SupportFuncs.o
+ .debug_loc     0x000075b5      0x13e ..\obj\main.o
+ .debug_loc     0x000076f3      0x1b8 ..\obj\GPIO.o
+ .debug_loc     0x000078ab     0x2774 ..\obj\printf.o
+ .debug_loc     0x0000a01f      0x7fb ..\obj\stm32f10x_rcc.o
+ .debug_loc     0x0000a81a      0x1f6 ..\obj\stm32f10x_exti.o
+ .debug_loc     0x0000aa10      0x82e ..\obj\stm32f10x_usart.o
+ .debug_loc     0x0000b23e       0x84 ..\obj\irq_hal.o
+ .debug_loc     0x0000b2c2      0x25b ..\obj\BDM_CORE.o
+ .debug_loc     0x0000b51d     0x125a ..\obj\sdmm.o
+ .debug_loc     0x0000c777     0xdc4f ..\obj\ff.o
+ .debug_loc     0x0001a3c6      0x177 ..\obj\stm32f10x_dma.o
+ .debug_loc     0x0001a53d     0x4447 ..\obj\ReadWrite.o
+ .debug_loc     0x0001e984      0x18e ..\obj\misc.o
+ .debug_loc     0x0001eb12      0x535 ..\obj\stm32f10x_spi.o
+ .debug_loc     0x0001f047       0xa2 ..\obj\SupportFuncs.o
 
-.debug_aranges  0x00000000     0x1010
+.debug_aranges  0x00000000      0xff0
  .debug_aranges
                 0x00000000      0x2d0 ..\obj\stm32f10x_tim.o
  .debug_aranges
@@ -2057,39 +2050,39 @@ OUTPUT(Thingy2.0.elf elf32-littlearm)
  .debug_aranges
                 0x00000608      0x148 ..\obj\ST7735.o
  .debug_aranges
-                0x00000750       0x48 ..\obj\main.o
+                0x00000750       0x28 ..\obj\main.o
  .debug_aranges
-                0x00000798       0x30 ..\obj\GPIO.o
+                0x00000778       0x30 ..\obj\GPIO.o
  .debug_aranges
-                0x000007c8       0x48 ..\obj\init.o
+                0x000007a8       0x48 ..\obj\init.o
  .debug_aranges
-                0x00000810       0x98 ..\obj\printf.o
+                0x000007f0       0x98 ..\obj\printf.o
  .debug_aranges
-                0x000008a8      0x118 ..\obj\stm32f10x_rcc.o
+                0x00000888      0x118 ..\obj\stm32f10x_rcc.o
  .debug_aranges
-                0x000009c0       0x58 ..\obj\stm32f10x_exti.o
+                0x000009a0       0x58 ..\obj\stm32f10x_exti.o
  .debug_aranges
-                0x00000a18      0x100 ..\obj\stm32f10x_usart.o
+                0x000009f8      0x100 ..\obj\stm32f10x_usart.o
  .debug_aranges
-                0x00000b18       0x90 ..\obj\irq_hal.o
+                0x00000af8       0x90 ..\obj\irq_hal.o
  .debug_aranges
-                0x00000ba8       0x50 ..\obj\BDM_CORE.o
+                0x00000b88       0x50 ..\obj\BDM_CORE.o
  .debug_aranges
-                0x00000bf8       0x60 ..\obj\sdmm.o
+                0x00000bd8       0x60 ..\obj\sdmm.o
  .debug_aranges
-                0x00000c58      0x110 ..\obj\ff.o
+                0x00000c38      0x110 ..\obj\ff.o
  .debug_aranges
-                0x00000d68       0x70 ..\obj\stm32f10x_dma.o
+                0x00000d48       0x70 ..\obj\stm32f10x_dma.o
  .debug_aranges
-                0x00000dd8       0xe8 ..\obj\ReadWrite.o
+                0x00000db8       0xe8 ..\obj\ReadWrite.o
  .debug_aranges
-                0x00000ec0       0x40 ..\obj\misc.o
+                0x00000ea0       0x40 ..\obj\misc.o
  .debug_aranges
-                0x00000f00       0xd0 ..\obj\stm32f10x_spi.o
+                0x00000ee0       0xd0 ..\obj\stm32f10x_spi.o
  .debug_aranges
-                0x00000fd0       0x40 ..\obj\SupportFuncs.o
+                0x00000fb0       0x40 ..\obj\SupportFuncs.o
 
-.debug_ranges   0x00000000     0x5c38
+.debug_ranges   0x00000000     0x5bc8
  .debug_ranges  0x00000000      0x4c0 ..\obj\stm32f10x_tim.o
  .debug_ranges  0x000004c0       0x18 ..\obj\GUI.o
  .debug_ranges  0x000004d8      0x138 ..\obj\tim_hal.o
@@ -2101,24 +2094,24 @@ OUTPUT(Thingy2.0.elf elf32-littlearm)
  .debug_ranges  0x000007f8       0x90 ..\obj\Core.o
  .debug_ranges  0x00000888       0x98 ..\obj\stm32f10x_gpio.o
  .debug_ranges  0x00000920      0xbf8 ..\obj\ST7735.o
- .debug_ranges  0x00001518       0xb8 ..\obj\main.o
- .debug_ranges  0x000015d0       0x20 ..\obj\GPIO.o
- .debug_ranges  0x000015f0       0x50 ..\obj\init.o
- .debug_ranges  0x00001640      0x480 ..\obj\printf.o
- .debug_ranges  0x00001ac0      0x128 ..\obj\stm32f10x_rcc.o
- .debug_ranges  0x00001be8       0x48 ..\obj\stm32f10x_exti.o
- .debug_ranges  0x00001c30       0xf0 ..\obj\stm32f10x_usart.o
- .debug_ranges  0x00001d20       0x80 ..\obj\irq_hal.o
- .debug_ranges  0x00001da0       0x58 ..\obj\BDM_CORE.o
- .debug_ranges  0x00001df8      0x600 ..\obj\sdmm.o
- .debug_ranges  0x000023f8     0x1de0 ..\obj\ff.o
- .debug_ranges  0x000041d8       0x60 ..\obj\stm32f10x_dma.o
- .debug_ranges  0x00004238     0x18e0 ..\obj\ReadWrite.o
- .debug_ranges  0x00005b18       0x30 ..\obj\misc.o
- .debug_ranges  0x00005b48       0xc0 ..\obj\stm32f10x_spi.o
- .debug_ranges  0x00005c08       0x30 ..\obj\SupportFuncs.o
+ .debug_ranges  0x00001518       0x48 ..\obj\main.o
+ .debug_ranges  0x00001560       0x20 ..\obj\GPIO.o
+ .debug_ranges  0x00001580       0x50 ..\obj\init.o
+ .debug_ranges  0x000015d0      0x480 ..\obj\printf.o
+ .debug_ranges  0x00001a50      0x128 ..\obj\stm32f10x_rcc.o
+ .debug_ranges  0x00001b78       0x48 ..\obj\stm32f10x_exti.o
+ .debug_ranges  0x00001bc0       0xf0 ..\obj\stm32f10x_usart.o
+ .debug_ranges  0x00001cb0       0x80 ..\obj\irq_hal.o
+ .debug_ranges  0x00001d30       0x58 ..\obj\BDM_CORE.o
+ .debug_ranges  0x00001d88      0x600 ..\obj\sdmm.o
+ .debug_ranges  0x00002388     0x1de0 ..\obj\ff.o
+ .debug_ranges  0x00004168       0x60 ..\obj\stm32f10x_dma.o
+ .debug_ranges  0x000041c8     0x18e0 ..\obj\ReadWrite.o
+ .debug_ranges  0x00005aa8       0x30 ..\obj\misc.o
+ .debug_ranges  0x00005ad8       0xc0 ..\obj\stm32f10x_spi.o
+ .debug_ranges  0x00005b98       0x30 ..\obj\SupportFuncs.o
 
-.debug_line     0x00000000     0xa30f
+.debug_line     0x00000000     0xa198
  .debug_line    0x00000000      0xd01 ..\obj\stm32f10x_tim.o
  .debug_line    0x00000d01      0x214 ..\obj\GUI.o
  .debug_line    0x00000f15      0x345 ..\obj\tim_hal.o
@@ -2130,24 +2123,24 @@ OUTPUT(Thingy2.0.elf elf32-littlearm)
  .debug_line    0x00001e7f      0x40c ..\obj\Core.o
  .debug_line    0x0000228b      0x4bb ..\obj\stm32f10x_gpio.o
  .debug_line    0x00002746     0x103e ..\obj\ST7735.o
- .debug_line    0x00003784      0x449 ..\obj\main.o
- .debug_line    0x00003bcd      0x28c ..\obj\GPIO.o
- .debug_line    0x00003e59      0x3d1 ..\obj\init.o
- .debug_line    0x0000422a      0x56f ..\obj\printf.o
- .debug_line    0x00004799      0x480 ..\obj\stm32f10x_rcc.o
- .debug_line    0x00004c19      0x26c ..\obj\stm32f10x_exti.o
- .debug_line    0x00004e85      0x490 ..\obj\stm32f10x_usart.o
- .debug_line    0x00005315      0x339 ..\obj\irq_hal.o
- .debug_line    0x0000564e      0x31b ..\obj\BDM_CORE.o
- .debug_line    0x00005969      0x711 ..\obj\sdmm.o
- .debug_line    0x0000607a     0x1def ..\obj\ff.o
- .debug_line    0x00007e69      0x2ce ..\obj\stm32f10x_dma.o
- .debug_line    0x00008137     0x187b ..\obj\ReadWrite.o
- .debug_line    0x000099b2      0x203 ..\obj\misc.o
- .debug_line    0x00009bb5      0x403 ..\obj\stm32f10x_spi.o
- .debug_line    0x00009fb8      0x357 ..\obj\SupportFuncs.o
+ .debug_line    0x00003784      0x2d2 ..\obj\main.o
+ .debug_line    0x00003a56      0x28c ..\obj\GPIO.o
+ .debug_line    0x00003ce2      0x3d1 ..\obj\init.o
+ .debug_line    0x000040b3      0x56f ..\obj\printf.o
+ .debug_line    0x00004622      0x480 ..\obj\stm32f10x_rcc.o
+ .debug_line    0x00004aa2      0x26c ..\obj\stm32f10x_exti.o
+ .debug_line    0x00004d0e      0x490 ..\obj\stm32f10x_usart.o
+ .debug_line    0x0000519e      0x339 ..\obj\irq_hal.o
+ .debug_line    0x000054d7      0x31b ..\obj\BDM_CORE.o
+ .debug_line    0x000057f2      0x711 ..\obj\sdmm.o
+ .debug_line    0x00005f03     0x1def ..\obj\ff.o
+ .debug_line    0x00007cf2      0x2ce ..\obj\stm32f10x_dma.o
+ .debug_line    0x00007fc0     0x187b ..\obj\ReadWrite.o
+ .debug_line    0x0000983b      0x203 ..\obj\misc.o
+ .debug_line    0x00009a3e      0x403 ..\obj\stm32f10x_spi.o
+ .debug_line    0x00009e41      0x357 ..\obj\SupportFuncs.o
 
-.debug_str      0x00000000     0x44ca
+.debug_str      0x00000000     0x4495
  .debug_str     0x00000000      0xd4b ..\obj\stm32f10x_tim.o
                                 0xe18 (size before relaxing)
  .debug_str     0x00000d4b      0x2a8 ..\obj\GUI.o
@@ -2170,37 +2163,37 @@ OUTPUT(Thingy2.0.elf elf32-littlearm)
                                 0x53d (size before relaxing)
  .debug_str     0x00001f54      0x422 ..\obj\ST7735.o
                                 0x77b (size before relaxing)
- .debug_str     0x00002376      0x223 ..\obj\main.o
-                                0x707 (size before relaxing)
- .debug_str     0x00002599       0x5b ..\obj\GPIO.o
+ .debug_str     0x00002376       0xe6 ..\obj\main.o
+                                0x503 (size before relaxing)
+ .debug_str     0x0000245c       0x5b ..\obj\GPIO.o
                                 0x460 (size before relaxing)
- .debug_str     0x000025f4      0x1f0 ..\obj\init.o
+ .debug_str     0x000024b7      0x1f0 ..\obj\init.o
                                 0x742 (size before relaxing)
- .debug_str     0x000027e4      0x4b5 ..\obj\printf.o
+ .debug_str     0x000026a7      0x4b5 ..\obj\printf.o
                                 0x678 (size before relaxing)
- .debug_str     0x00002c99      0x375 ..\obj\stm32f10x_rcc.o
+ .debug_str     0x00002b5c      0x375 ..\obj\stm32f10x_rcc.o
                                 0x627 (size before relaxing)
- .debug_str     0x0000300e      0x1d7 ..\obj\stm32f10x_exti.o
+ .debug_str     0x00002ed1      0x1d7 ..\obj\stm32f10x_exti.o
                                 0x356 (size before relaxing)
- .debug_str     0x000031e5      0x399 ..\obj\stm32f10x_usart.o
+ .debug_str     0x000030a8      0x399 ..\obj\stm32f10x_usart.o
                                 0x6dd (size before relaxing)
- .debug_str     0x0000357e      0x466 ..\obj\irq_hal.o
+ .debug_str     0x00003441      0x466 ..\obj\irq_hal.o
                                 0x76e (size before relaxing)
- .debug_str     0x000039e4       0x75 ..\obj\BDM_CORE.o
+ .debug_str     0x000038a7       0x75 ..\obj\BDM_CORE.o
                                 0x3c8 (size before relaxing)
- .debug_str     0x00003a59      0x157 ..\obj\sdmm.o
+ .debug_str     0x0000391c      0x25f ..\obj\sdmm.o
                                 0x5e9 (size before relaxing)
- .debug_str     0x00003bb0      0x285 ..\obj\ff.o
+ .debug_str     0x00003b7b      0x285 ..\obj\ff.o
                                 0x643 (size before relaxing)
- .debug_str     0x00003e35      0x111 ..\obj\stm32f10x_dma.o
+ .debug_str     0x00003e00      0x111 ..\obj\stm32f10x_dma.o
                                 0x3c4 (size before relaxing)
- .debug_str     0x00003f46      0x166 ..\obj\ReadWrite.o
+ .debug_str     0x00003f11      0x166 ..\obj\ReadWrite.o
                                 0x6fa (size before relaxing)
- .debug_str     0x000040ac      0x136 ..\obj\misc.o
+ .debug_str     0x00004077      0x136 ..\obj\misc.o
                                 0x3cb (size before relaxing)
- .debug_str     0x000041e2      0x28c ..\obj\stm32f10x_spi.o
+ .debug_str     0x000041ad      0x28c ..\obj\stm32f10x_spi.o
                                 0x64a (size before relaxing)
- .debug_str     0x0000446e       0x5c ..\obj\SupportFuncs.o
+ .debug_str     0x00004439       0x5c ..\obj\SupportFuncs.o
                                 0x786 (size before relaxing)
 
 .comment        0x00000000       0xe0
@@ -2295,7 +2288,7 @@ OUTPUT(Thingy2.0.elf elf32-littlearm)
  .ARM.attributes
                 0x0000058e       0x2d h:/4.7_2013q3/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memset.o)
 
-.debug_frame    0x00000000     0x2f58
+.debug_frame    0x00000000     0x2ee8
  .debug_frame   0x00000000      0x730 ..\obj\stm32f10x_tim.o
  .debug_frame   0x00000730       0x44 ..\obj\GUI.o
  .debug_frame   0x00000774      0x124 ..\obj\tim_hal.o
@@ -2307,21 +2300,21 @@ OUTPUT(Thingy2.0.elf elf32-littlearm)
  .debug_frame   0x00000bd8      0x17c ..\obj\Core.o
  .debug_frame   0x00000d54      0x1b0 ..\obj\stm32f10x_gpio.o
  .debug_frame   0x00000f04      0x53c ..\obj\ST7735.o
- .debug_frame   0x00001440       0xb8 ..\obj\main.o
- .debug_frame   0x000014f8       0x4c ..\obj\GPIO.o
- .debug_frame   0x00001544       0xd4 ..\obj\init.o
- .debug_frame   0x00001618      0x2bc ..\obj\printf.o
- .debug_frame   0x000018d4      0x224 ..\obj\stm32f10x_rcc.o
- .debug_frame   0x00001af8       0xb0 ..\obj\stm32f10x_exti.o
- .debug_frame   0x00001ba8      0x258 ..\obj\stm32f10x_usart.o
- .debug_frame   0x00001e00      0x118 ..\obj\irq_hal.o
- .debug_frame   0x00001f18       0xe8 ..\obj\BDM_CORE.o
- .debug_frame   0x00002000      0x194 ..\obj\sdmm.o
- .debug_frame   0x00002194      0x650 ..\obj\ff.o
- .debug_frame   0x000027e4       0xd0 ..\obj\stm32f10x_dma.o
- .debug_frame   0x000028b4      0x384 ..\obj\ReadWrite.o
- .debug_frame   0x00002c38       0x6c ..\obj\misc.o
- .debug_frame   0x00002ca4      0x1cc ..\obj\stm32f10x_spi.o
- .debug_frame   0x00002e70       0x8c ..\obj\SupportFuncs.o
- .debug_frame   0x00002efc       0x30 h:/4.7_2013q3/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memcpy.o)
- .debug_frame   0x00002f2c       0x2c h:/4.7_2013q3/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memset.o)
+ .debug_frame   0x00001440       0x48 ..\obj\main.o
+ .debug_frame   0x00001488       0x4c ..\obj\GPIO.o
+ .debug_frame   0x000014d4       0xd4 ..\obj\init.o
+ .debug_frame   0x000015a8      0x2bc ..\obj\printf.o
+ .debug_frame   0x00001864      0x224 ..\obj\stm32f10x_rcc.o
+ .debug_frame   0x00001a88       0xb0 ..\obj\stm32f10x_exti.o
+ .debug_frame   0x00001b38      0x258 ..\obj\stm32f10x_usart.o
+ .debug_frame   0x00001d90      0x118 ..\obj\irq_hal.o
+ .debug_frame   0x00001ea8       0xe8 ..\obj\BDM_CORE.o
+ .debug_frame   0x00001f90      0x194 ..\obj\sdmm.o
+ .debug_frame   0x00002124      0x650 ..\obj\ff.o
+ .debug_frame   0x00002774       0xd0 ..\obj\stm32f10x_dma.o
+ .debug_frame   0x00002844      0x384 ..\obj\ReadWrite.o
+ .debug_frame   0x00002bc8       0x6c ..\obj\misc.o
+ .debug_frame   0x00002c34      0x1cc ..\obj\stm32f10x_spi.o
+ .debug_frame   0x00002e00       0x8c ..\obj\SupportFuncs.o
+ .debug_frame   0x00002e8c       0x30 h:/4.7_2013q3/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memcpy.o)
+ .debug_frame   0x00002ebc       0x2c h:/4.7_2013q3/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memset.o)

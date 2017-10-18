@@ -1,6 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <dependencies>
    <includePath signature="/I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\BDM /I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\Syssup\stm_lib\inc /I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\BDM\Drivers /I..\..\..\..\..\Sync\Compile\MCU /I..\..\..\..\..\Sync\Compile\MCU\M68k /I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\HAL /I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\CAN /I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\HAL\Disk /I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\Syssup\stm_lib /I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\GUI /I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0 /I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\Syssup\cmsis_boot /I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\Syssup\cmsis /I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\Syssup">
+      <source file="..\..\..\BDM\ReadWrite.c" lastModified="15f2c4ea0ac">
+         <include file="..\..\..\common.h"/>
+         <include file="..\..\..\BDM\BDM.h"/>
+         <include file="..\..\..\BDM\Drivers\TxDriver.bin.h"/>
+         <include file="..\..\..\BDM\Drivers\driver.bin.h"/>
+      </source>
       <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_rcc.c" lastModified="1517a7581a0">
          <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_rcc.h"/>
       </source>
@@ -261,11 +267,6 @@
          <include file="..\..\..\common.h"/>
          <include file="..\..\..\HAL\HAL.h"/>
          <include file="..\..\..\HAL\tim_hal.h"/>
-      </source>
-      <source file="..\..\..\main.c" lastModified="15eda033699">
-         <include file="..\..\..\common.h"/>
-         <include file="..\..\..\loader.bin.h"/>
-         <include file="..\..\..\BDM\BDM.h"/>
       </source>
       <source file="..\..\..\Syssup\stm_lib\inc\stm32f10x_spi.h" lastModified="1517a761610">
          <include file="..\..\..\Syssup\cmsis_boot\stm32f10x.h"/>
