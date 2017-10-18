@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\BDM /I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\Syssup\stm_lib\inc /I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\BDM\Drivers /I..\..\..\..\..\Sync\Compile\MCU /I..\..\..\..\..\Sync\Compile\MCU\M68k /I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\HAL /I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\CAN /I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\HAL\Disk /I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\Syssup\stm_lib /I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\GUI /I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0 /I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\Syssup\cmsis_boot /I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\Syssup\cmsis /I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\Syssup">
+      <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_rcc.c" lastModified="1517a7581a0">
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\inc\stm32f10x_flash.h" lastModified="1517a763168">
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\BDM\Prep.c" lastModified="15ef7975fb4">
+         <include file="..\..\..\common.h"/>
+         <include file="..\..\..\BDM\BDM.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\inc\stm32f10x_usart.h" lastModified="1517a7650a8">
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\GUI\ST7735.h" lastModified="14c6a170db0">
+      </source>
+      <source file="..\..\..\GUI\ST7735.c" lastModified="15d40949486">
+         <include file="..\..\..\GUI\ST7735.h"/>
+         <include file="..\..\..\common.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_flash.c" lastModified="1517a763168">
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_flash.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_usart.c" lastModified="1517a7650a8">
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\HAL\Disk\ffconf.h" lastModified="15ca68bd91a">
+      </source>
+      <source file="..\..\..\Syssup\stdio\printf.c" lastModified="1525152e488">
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\inc\stm32f10x_crc.h" lastModified="1517a758d58">
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\inc\misc.h" lastModified="1517a7677b8">
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\HAL\Disk\integer.h" lastModified="14f9d58a320">
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\inc\stm32f10x_adc.h" lastModified="1517a7648d8">
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_gpio.c" lastModified="1517a759cf8">
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\CAN\KWP2K.c" lastModified="15ec8984ab6">
+         <include file="..\..\..\common.h"/>
+         <include file="..\..\..\CAN\legion.bin.h"/>
+      </source>
+      <source file="..\..\..\HAL\irq_hal.h" lastModified="1524fb3ea28">
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\HAL\irq_hal.c" lastModified="15c8993dde8">
+         <include file="..\..\..\common.h"/>
+         <include file="..\..\..\HAL\HAL.h"/>
+         <include file="..\..\..\HAL\irq_hal.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_crc.c" lastModified="1517a758d58">
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_crc.h"/>
+      </source>
+      <source file="..\..\..\HAL\Disk\sdmm.c" lastModified="15cb014f0bc">
+         <include file="..\..\..\HAL\Disk\diskio.h"/>
+         <include file="..\..\..\HAL\HAL.h"/>
+         <include file="..\..\..\common.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_adc.c" lastModified="1517a7648d8">
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\SupportFuncs.h" lastModified="15ca2d4fc61">
+         <include file="..\..\..\HAL\Disk\ff.h"/>
+         <include file="..\..\..\GUI\ST7735.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_iwdg.c" lastModified="1517a760670">
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_iwdg.h"/>
+      </source>
+      <source file="..\..\..\SupportFuncs.c" lastModified="15ca63b26ef">
+         <include file="..\..\..\common.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\src\misc.c" lastModified="1517a7677b8">
+         <include file="..\..\..\Syssup\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\inc\stm32f10x_gpio.h" lastModified="1517a759cf8">
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\HAL\HAL.h" lastModified="15cb0afea17">
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\inc\stm32f10x_i2c.h" lastModified="1517a761de0">
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\inc\stm32f10x_pwr.h" lastModified="1517a759140">
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\inc\stm32f10x_can.h" lastModified="1517a768f28">
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\inc\stm32f10x_rtc.h" lastModified="1517a75fea0">
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\inc\stm32f10x_tim.h" lastModified="1517a763d20">
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\CAN\Legion.c" lastModified="15caff9980f">
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_i2c.c" lastModified="1517a7621c8">
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\CAN\GMLAN.c" lastModified="15caff9bb61">
+      </source>
+      <source file="..\..\..\HAL\IRQ.h" lastModified="15c69c05812">
+         <include file="..\..\..\common.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_pwr.c" lastModified="1517a759140">
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_can.c" lastModified="1517a768f28">
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_can.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\inc\stm32f10x_iwdg.h" lastModified="1517a760670">
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_rtc.c" lastModified="1517a75fea0">
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_rtc.h"/>
+      </source>
+      <source file="..\..\..\HAL\IRQ.c" lastModified="15ca34dbfa9">
+         <include file="..\..\..\HAL\IRQ.h"/>
+         <include file="..\..\..\HAL\HAL.h"/>
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\HAL\Disk\diskio.h" lastModified="14f9d589b50">
+         <include file="..\..\..\HAL\Disk\integer.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_tim.c" lastModified="1517a763d20">
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_dbgmcu.c" lastModified="1517a762998">
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_dbgmcu.h"/>
+      </source>
+      <source file="..\..\..\Syssup\cmsis_boot\system_stm32f10x.h" lastModified="15c9afec3a0">
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_wwdg.c" lastModified="1517a760e40">
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_wwdg.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Syssup\cmsis\core_cmInstr.h" lastModified="1517a7575e8">
+      </source>
+      <source file="..\..\..\Syssup\cmsis_boot\system_stm32f10x.c" lastModified="15ce58e6f08">
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\GUI\GUI.c" lastModified="15cb008d6cb">
+         <include file="..\..\..\common.h"/>
+      </source>
+      <source file="..\..\..\HAL\pwr_hal.h" lastModified="152406a3fb8">
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\Syssup\cmsis\core_cm3.h" lastModified="1517a757200">
+         <include file="..\..\..\Syssup\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\Syssup\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\HAL\pwr_hal.c" lastModified="15180bcbec0">
+         <include file="..\..\..\HAL\pwr_hal.h"/>
+         <include file="..\..\..\HAL\HAL.h"/>
+      </source>
+      <source file="..\..\..\init.c" lastModified="15ccbe751cb">
+         <include file="..\..\..\common.h"/>
+      </source>
+      <source file="..\..\..\Syssup\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="1517a7581a0">
+      </source>
+      <source file="..\..\..\HAL\GPIO.h" lastModified="15c8ade31b8">
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x_conf.h"/>
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\inc\stm32f10x_wwdg.h" lastModified="1517a760e40">
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\Syssup\syscalls\syscalls.c" lastModified="1523d755a18">
+      </source>
+      <source file="..\..\..\HAL\GPIO.c" lastModified="15ccbedfbf2">
+         <include file="..\..\..\HAL\GPIO.h"/>
+         <include file="..\..\..\common.h"/>
+      </source>
+      <source file="..\..\..\CAN\Trionic5.c" lastModified="15eda02eb79">
+      </source>
+      <source file="..\..\..\Syssup\cmsis_boot\stm32f10x.h" lastModified="1517a758588">
+         <include file="..\..\..\Syssup\cmsis\core_cm3.h"/>
+         <include file="..\..\..\Syssup\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\BDM\Drivers\driver.bin.h" lastModified="15e9ab1a13f">
+      </source>
+      <source file="..\..\..\HAL\Disk\ff.h" lastModified="14f9d589b50">
+         <include file="..\..\..\HAL\Disk\integer.h"/>
+         <include file="..\..\..\HAL\Disk\ffconf.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\inc\stm32f10x_bkp.h" lastModified="1517a759528">
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\HAL\Disk\ff.c" lastModified="14f9d589f38">
+         <include file="..\..\..\HAL\Disk\ff.h"/>
+         <include file="..\..\..\HAL\Disk\diskio.h"/>
+      </source>
+      <source file="..\..\..\Syssup\cmsis_boot\stm32f10x_conf.h" lastModified="1517f4b3530">
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_bkp.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_can.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_crc.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_dbgmcu.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_flash.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_iwdg.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_rtc.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_wwdg.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\inc\stm32f10x_dbgmcu.h" lastModified="1517a762998">
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\BDM\Drivers\TxDriver.bin.h" lastModified="15f1f346c07">
+      </source>
+      <source file="..\..\..\Syssup\cmsis\core_cmFunc.h" lastModified="1517a7575e8">
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_exti.c" lastModified="1517a75a4c8">
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_exti.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_bkp.c" lastModified="1517a759528">
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_bkp.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\loader.bin.h" lastModified="15d3587b159">
+      </source>
+      <source file="..\..\..\BDM\BDM_CORE.c" lastModified="15ca43af91d">
+         <include file="..\..\..\common.h"/>
+         <include file="..\..\..\BDM\BDM.h"/>
+      </source>
+      <source file="..\..\..\HAL\tim_hal.h" lastModified="1517f80a0f8">
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_tim.h"/>
+      </source>
+      <source file="..\..\..\CAN\Core.c" lastModified="15ed817f242">
+         <include file="..\..\..\common.h"/>
+      </source>
+      <source file="..\..\..\CAN\legion.bin.h" lastModified="15cb0904995">
+      </source>
+      <source file="..\..\..\HAL\tim_hal.c" lastModified="15ca2cb41d3">
+         <include file="..\..\..\common.h"/>
+         <include file="..\..\..\HAL\HAL.h"/>
+         <include file="..\..\..\HAL\tim_hal.h"/>
+      </source>
+      <source file="..\..\..\main.c" lastModified="15eda033699">
+         <include file="..\..\..\common.h"/>
+         <include file="..\..\..\loader.bin.h"/>
+         <include file="..\..\..\BDM\BDM.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\inc\stm32f10x_spi.h" lastModified="1517a761610">
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\inc\stm32f10x_dma.h" lastModified="1517a75ac98">
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\BDM\BDM.h" lastModified="15c94c73d37">
+      </source>
+      <source file="..\..\..\common.h" lastModified="15cb0f86b73">
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_can.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_flash.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\HAL\HAL.h"/>
+         <include file="..\..\..\SupportFuncs.h"/>
+      </source>
+      <source file="..\..\..\CAN\KeyGen.c" lastModified="15caffe2759">
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\inc\stm32f10x_rcc.h" lastModified="1517a7581a0">
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_dma.c" lastModified="1517a75ac98">
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_spi.c" lastModified="15c9af56ee5">
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\Syssup\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Syssup\stm_lib\inc\stm32f10x_exti.h" lastModified="1517a75a4c8">
+         <include file="..\..\..\Syssup\cmsis_boot\stm32f10x.h"/>
+      </source>
+   </includePath>
+</dependencies>

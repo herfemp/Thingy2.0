@@ -1,0 +1,69 @@
+/* Diagnostic and Communication Management */
+// 0x10 StartDiagnosticSession
+// 0x20 StopDiagnosticSession
+// 0x11 ECUReset
+// 0x3E TesterPresent
+// 0x27 SecurityAccess
+// 0x83 AccessTimingParameters
+// 0x1A ReadECUIdentification
+0x80 - All data
+0x86 - VIN and Hardware no.
+0x8A - Boot version
+0x90 - VIN
+0x91 - Manufacturer Drawing number / Main Firmware version
+0x92 - ECU hardware no.
+0x93 - ECU hardware version no.
+0x94 - ECU software no.
+0x95 - ECU software version no.
+0x96 - Homologation code
+0x97 - ISO code
+0x98 - Tester code
+0x99 - Reprogramming/production date [Y-Y-M-D]
+0x9B - NA/Configuration software version
+
+/* Stored Data Transmission */
+// 0x12 ReadFreezeFrameData
+// 0x13 ReadDiagnosticTroubleCode
+// 0x14 ClearDiagnosticInformation
+// 0x17 ReadStatusOfDiagnosticCode
+// 0x18 ReadDiagnosticTroubleCodeByID
+
+/* Input / Output Control */
+// 0x30 InputOutputControlByLocalID
+// 0x2F InputOutputControlByCommonID
+
+/* Remote Activation of Routine */
+// 0x31 StartRoutineByLocalID // Disasm: 3154
+// 0x38 StartRoutineByAddress
+// 0x32 StopRoutineByLocalID
+// 0x39 StopRoutineByAddress
+// 0x33 RequestRoutineResultByLocalID //0133 ??
+// 0x3A RequestRoutineResultByAddress
+
+/* Upload / Download */
+// 0x34 RequestDownload (Data TO ECU)
+// 0x35 RequestUpload (Only accepted up to 0x80000)
+// 0x36 TransferData    (Data TO ECU)
+// 0x37 RequestTransferExit
+
+/* Data Transmission */
+// 0x23 ReadMemoryByAddress
+// 0x3D WriteMemoryByAddress
+// 0x21 ReadDataByLocalIdentification
+// 0x3B WriteDataByLocalIdentification // 0x3B95?? Disasm
+// 0x26 SetDataRate
+
+// 0x22 ReadDataByCommonID
+// 0x2E WriteDataByCommonID
+// 0x2D DynamicallyDefineLocalD
+
+
+// 0x2C ReadSRAM/Flash (T7suite) (082C)
+// 0x3D Write (0x073D)
+
+0x42 ??
+0x52 ??
+0x11 Service Not sup
+0x12 SubPara Not sup
+0x21 busyRepeatRequest
+0x72 generalProgrammingFailure

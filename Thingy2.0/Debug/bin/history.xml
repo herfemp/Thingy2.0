@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Thingy2.0.map -O3 --gc-sections -LH:\CooCox\CoIDE\configuration\ProgramData\Thingy2.0 -TH:\CooCox\CoIDE\configuration\ProgramData\Thingy2.0/arm-gcc-link.ld -g">
+      <target file="Thingy2.0.elf" lastModified="15f2c4eb42a">
+         <source file="..\obj\stm32f10x_rtc.o" lastModified="15d4093ae3d"/>
+         <source file="..\obj\stm32f10x_tim.o" lastModified="15d4093b077"/>
+         <source file="..\obj\GUI.o" lastModified="15d4093b10a"/>
+         <source file="..\obj\KeyGen.o" lastModified="15d4093b149"/>
+         <source file="..\obj\tim_hal.o" lastModified="15d4093b1fc"/>
+         <source file="..\obj\Prep.o" lastModified="15ef7976623"/>
+         <source file="..\obj\stm32f10x_dbgmcu.o" lastModified="15d4093b320"/>
+         <source file="..\obj\pwr_hal.o" lastModified="15d4093b392"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="15d4093b419"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="15d4093b468"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="15d4093b4f4"/>
+         <source file="..\obj\stm32f10x_can.o" lastModified="15d4093b62e"/>
+         <source file="..\obj\Core.o" lastModified="15ed817f7c0"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="15d4093b822"/>
+         <source file="..\obj\ST7735.o" lastModified="15d409492b0"/>
+         <source file="..\obj\main.o" lastModified="15eda033db7"/>
+         <source file="..\obj\GPIO.o" lastModified="15d4093be4e"/>
+         <source file="..\obj\stm32f10x_crc.o" lastModified="15d4093becd"/>
+         <source file="..\obj\init.o" lastModified="15d4093bf87"/>
+         <source file="..\obj\printf.o" lastModified="15d4093c0f5"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="15d4093c1e5"/>
+         <source file="..\obj\Trionic5.o" lastModified="15eda033e44"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="15d4093c279"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="15d4093c379"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="15d4093c472"/>
+         <source file="..\obj\irq_hal.o" lastModified="15d4093c514"/>
+         <source file="..\obj\BDM_CORE.o" lastModified="15d4093c5e4"/>
+         <source file="..\obj\syscalls.o" lastModified="15d4093c65b"/>
+         <source file="..\obj\sdmm.o" lastModified="15d4093c7e8"/>
+         <source file="..\obj\stm32f10x_flash.o" lastModified="15d4093c9ce"/>
+         <source file="..\obj\KWP2K.o" lastModified="15ec898563c"/>
+         <source file="..\obj\IRQ.o" lastModified="15d4093cc97"/>
+         <source file="..\obj\ff.o" lastModified="15d4093d666"/>
+         <source file="..\obj\stm32f10x_dma.o" lastModified="15d4093d710"/>
+         <source file="..\obj\ReadWrite.o" lastModified="15f2c4eb0d5"/>
+         <source file="..\obj\misc.o" lastModified="15d4093dcd2"/>
+         <source file="..\obj\Legion.o" lastModified="15d4093dd14"/>
+         <source file="..\obj\stm32f10x_wwdg.o" lastModified="15d4093dd9b"/>
+         <source file="..\obj\stm32f10x_spi.o" lastModified="15d4093de71"/>
+         <source file="..\obj\stm32f10x_i2c.o" lastModified="15d4093df73"/>
+         <source file="..\obj\SupportFuncs.o" lastModified="15d4093e00f"/>
+         <source file="..\obj\GMLAN.o" lastModified="15d4093e04e"/>
+         <source file="..\obj\stm32f10x_bkp.o" lastModified="15d4093e0de"/>
+         <source file="..\obj\stm32f10x_iwdg.o" lastModified="15d4093e15d"/>
+      </target>
+   </processor>
+</history>

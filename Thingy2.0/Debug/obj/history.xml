@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O3 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\BDM -I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\Syssup\stm_lib\inc -I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\BDM\Drivers -I..\..\..\..\..\Sync\Compile\MCU -I..\..\..\..\..\Sync\Compile\MCU\M68k -I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\HAL -I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\CAN -I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\HAL\Disk -I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\Syssup\stm_lib -I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\GUI -I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0 -I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\Syssup\cmsis_boot -I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\Syssup\cmsis -I..\..\..\..\..\Sync\Compile\MCU\M68k\Thingy2.0\Syssup">
+      <target file="ReadWrite.o" lastModified="15f2c4eb0d5">
+         <source file="..\..\..\BDM\ReadWrite.c" lastModified="15f2c4ea0ac"/>
+      </target>
+      <target file="pwr_hal.o" lastModified="15d4093b392">
+         <source file="..\..\..\HAL\pwr_hal.c" lastModified="15180bcbec0"/>
+      </target>
+      <target file="stm32f10x_exti.o" lastModified="15d4093c279">
+         <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_exti.c" lastModified="1517a75a4c8"/>
+      </target>
+      <target file="stm32f10x_iwdg.o" lastModified="15d4093e15d">
+         <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_iwdg.c" lastModified="1517a760670"/>
+      </target>
+      <target file="syscalls.o" lastModified="15d4093c65b">
+         <source file="..\..\..\Syssup\syscalls\syscalls.c" lastModified="1523d754a78"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="15d4093b822">
+         <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_gpio.c" lastModified="1517a759cf8"/>
+      </target>
+      <target file="misc.o" lastModified="15d4093dcd2">
+         <source file="..\..\..\Syssup\stm_lib\src\misc.c" lastModified="1517a7677b8"/>
+      </target>
+      <target file="Core.o" lastModified="15ed817f7c0">
+         <source file="..\..\..\CAN\Core.c" lastModified="15ed817f242"/>
+      </target>
+      <target file="SupportFuncs.o" lastModified="15d4093e00f">
+         <source file="..\..\..\SupportFuncs.c" lastModified="15ca63b26ef"/>
+      </target>
+      <target file="IRQ.o" lastModified="15d4093cc97">
+         <source file="..\..\..\HAL\IRQ.c" lastModified="15ca34dbbc1"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="15d4093b419">
+         <source file="..\..\..\Syssup\cmsis_boot\system_stm32f10x.c" lastModified="15ce58e6f08"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="15d4093c472">
+         <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_usart.c" lastModified="1517a7650a8"/>
+      </target>
+      <target file="stm32f10x_wwdg.o" lastModified="15d4093dd9b">
+         <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_wwdg.c" lastModified="1517a760e40"/>
+      </target>
+      <target file="Legion.o" lastModified="15d4093dd14">
+         <source file="..\..\..\CAN\Legion.c" lastModified="15caff9980f"/>
+      </target>
+      <target file="stm32f10x_flash.o" lastModified="15d4093c9ce">
+         <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_flash.c" lastModified="1517a763168"/>
+      </target>
+      <target file="GPIO.o" lastModified="15d4093be4e">
+         <source file="..\..\..\HAL\GPIO.c" lastModified="15ccbedfbf2"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="15d4093b077">
+         <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_tim.c" lastModified="1517a763d20"/>
+      </target>
+      <target file="BDM_CORE.o" lastModified="15d4093c5e4">
+         <source file="..\..\..\BDM\BDM_CORE.c" lastModified="15ca43af91d"/>
+      </target>
+      <target file="Prep.o" lastModified="15ef7976623">
+         <source file="..\..\..\BDM\Prep.c" lastModified="15ef7975fb4"/>
+      </target>
+      <target file="init.o" lastModified="15d4093bf87">
+         <source file="..\..\..\init.c" lastModified="15ccbe751cb"/>
+      </target>
+      <target file="GMLAN.o" lastModified="15d4093e04e">
+         <source file="..\..\..\CAN\GMLAN.c" lastModified="15caff9bb61"/>
+      </target>
+      <target file="tim_hal.o" lastModified="15d4093b1fc">
+         <source file="..\..\..\HAL\tim_hal.c" lastModified="15ca2cb41d3"/>
+      </target>
+      <target file="stm32f10x_rtc.o" lastModified="15d4093ae3d">
+         <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_rtc.c" lastModified="1517a75fea0"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="15d4093c1e5">
+         <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_rcc.c" lastModified="1517a7581a0"/>
+      </target>
+      <target file="stm32f10x_can.o" lastModified="15d4093b62e">
+         <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_can.c" lastModified="1517a768f28"/>
+      </target>
+      <target file="ST7735.o" lastModified="15d409492b0">
+         <source file="..\..\..\GUI\ST7735.c" lastModified="15d40948cb6"/>
+      </target>
+      <target file="stm32f10x_pwr.o" lastModified="15d4093b4f4">
+         <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_pwr.c" lastModified="1517a759140"/>
+      </target>
+      <target file="irq_hal.o" lastModified="15d4093c514">
+         <source file="..\..\..\HAL\irq_hal.c" lastModified="15c8993dde8"/>
+      </target>
+      <target file="stm32f10x_adc.o" lastModified="15d4093c379">
+         <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_adc.c" lastModified="1517a7648d8"/>
+      </target>
+      <target file="KeyGen.o" lastModified="15d4093b149">
+         <source file="..\..\..\CAN\KeyGen.c" lastModified="15caffe2759"/>
+      </target>
+      <target file="printf.o" lastModified="15d4093c0f5">
+         <source file="..\..\..\Syssup\stdio\printf.c" lastModified="1525152dcb8"/>
+      </target>
+      <target file="stm32f10x_dbgmcu.o" lastModified="15d4093b320">
+         <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_dbgmcu.c" lastModified="1517a762998"/>
+      </target>
+      <target file="stm32f10x_bkp.o" lastModified="15d4093e0de">
+         <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_bkp.c" lastModified="1517a759528"/>
+      </target>
+      <target file="stm32f10x_dma.o" lastModified="15d4093d710">
+         <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_dma.c" lastModified="1517a75ac98"/>
+      </target>
+      <target file="GUI.o" lastModified="15d4093b10a">
+         <source file="..\..\..\GUI\GUI.c" lastModified="15cb008d6cb"/>
+      </target>
+      <target file="Trionic5.o" lastModified="15eda033e44">
+         <source file="..\..\..\CAN\Trionic5.c" lastModified="15eda02eb79"/>
+      </target>
+      <target file="KWP2K.o" lastModified="15ec898563c">
+         <source file="..\..\..\CAN\KWP2K.c" lastModified="15ec8984ab6"/>
+      </target>
+      <target file="stm32f10x_crc.o" lastModified="15d4093becd">
+         <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_crc.c" lastModified="1517a758d58"/>
+      </target>
+      <target file="ff.o" lastModified="15d4093d666">
+         <source file="..\..\..\HAL\Disk\ff.c" lastModified="14f9d589b50"/>
+      </target>
+      <target file="main.o" lastModified="15eda033db7">
+         <source file="..\..\..\main.c" lastModified="15eda033699"/>
+      </target>
+      <target file="sdmm.o" lastModified="15d4093c7e8">
+         <source file="..\..\..\HAL\Disk\sdmm.c" lastModified="15cb014ecd4"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="15d4093b468">
+         <source file="..\..\..\Syssup\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="1517a7581a0"/>
+      </target>
+      <target file="stm32f10x_i2c.o" lastModified="15d4093df73">
+         <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_i2c.c" lastModified="1517a7621c8"/>
+      </target>
+      <target file="stm32f10x_spi.o" lastModified="15d4093de71">
+         <source file="..\..\..\Syssup\stm_lib\src\stm32f10x_spi.c" lastModified="15c9af56ee5"/>
+      </target>
+   </processor>
+</history>
