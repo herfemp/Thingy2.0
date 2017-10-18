@@ -7,7 +7,7 @@ It can do one thing and one thing only. BDM-flash Trionic _EXTREMELY_ fast.
 
 Take a look in bdmdrivers. Subtract 25 percent or more from those times and you know how fast this, whetever it is, is.
 
-Dump of T5.5 in < 1.5 S.
+Dump of T5.5 in < 1,5 S.
 
 Flash of 39sf020 (512K, Mirror T5.5) in 5,3 S.
 
@@ -15,7 +15,7 @@ Flash of AM28F010 (150 nS) in 5,1 S.
 
 Flash of TN28F010 in 4,8 S.
 
-Flash of 29C010 in 1,3 - 5.5 S.
+Flash of 29C010 in 1,3 - 5,5 S.
 
 
 
