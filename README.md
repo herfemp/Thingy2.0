@@ -13,6 +13,11 @@ Flash of 39sf020 (512K) in 5,3 S.
 
 Flash of AM28F010 (150 nS) in 5,1 S.
 
+Flash of TN28F010 in 4,8 S
+
+Flash of 29C010 in 1,3 - 5.5 S
+
+
 
 
 There is some code for CAN flashing in it but i've only used it for other purposes. As such it is not functional
