@@ -9,7 +9,7 @@ Take a look in bdmdrivers. Subtract 25 percent or more from those times and you 
 
 Dump of T5.5 in < 1.5 S.
 
-Flash of 39sf020 (512K) in 5,3 S.
+Flash of 39sf020 (512K, Mirror T5.5) in 5,3 S.
 
 Flash of AM28F010 (150 nS) in 5,1 S.
 
